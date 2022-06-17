@@ -1,9 +1,14 @@
-'''
-def fun_name(): # parameters
-    body[logic]
-    return
-fun_name() # argument
-'''
+# def                     --> Function Keyword [Define]
+# say_hello()             --> Function Name
+# name                    --> Parameter
+# print(f"Hello {name}")  --> Task
+# say_hello("Ahmed")      --> Ahmed is The Argument
+
+def say_hello(name):
+
+  print(f"Hello {name}")
+
+say_hello("Ahmed")
 
 
 # parameters
@@ -39,7 +44,6 @@ def default(x=0,y=0):
 
 z = default()
 print(z)
-
 
 
 # anonymous function
